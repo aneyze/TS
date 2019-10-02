@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libs/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libs/chromedriver_win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TS.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainTestCen01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTestCen01.java" afterDir="false" />
@@ -21,6 +22,17 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinitionsLogin/StepsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinitionsLogin/StepsLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/lojas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/lojas.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainTestCen01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTestCen01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainTestCen02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTestCen02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainTestCen03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTestCen03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainTestCen04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTestCen04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainTestCen05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTestCen05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunnerContato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunnerContato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunnerLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunnerLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunnerLojas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunnerLojas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lojas/Cen02/LojasPageCen02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lojas/Cen02/LojasPageCen02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitionsLojas/StepsLojas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitionsLojas/StepsLojas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinitionsContato/StepsContato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinitionsContato/StepsContato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinitionsLogin/StepsLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinitionsLogin/StepsLogin.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +191,7 @@
       <workItem from="1548951204637" duration="871000" />
       <workItem from="1549297291174" duration="956000" />
       <workItem from="1549315559034" duration="5681000" />
-      <workItem from="1569975223406" duration="1728000" />
+      <workItem from="1569975223406" duration="2525000" />
     </task>
     <servers />
   </component>
