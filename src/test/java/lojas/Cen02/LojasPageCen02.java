@@ -22,8 +22,8 @@ public class LojasPageCen02 {
     private By pesquisaCategoria = By.cssSelector(".select2-selection__rendered .select2-selection__placeholder:nth-child(1)");
     private By fillpesquisaCategoria = By.cssSelector(".select2-search__field");
     private By buscar = By.cssSelector("#searchFilter");
-    private By loja1 = By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/alice-salazar-store/']");
-    private By loja2 = By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/for-make-up/'] span");
+    private By loja1 = By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/adcos/']");
+    private By loja2 = By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/mahogany/'] span");
     private By loja3 = By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/sephora/'] span");
 
 
@@ -45,17 +45,17 @@ public class LojasPageCen02 {
         return this;
     }
 
-    public String getTitleLoja1(){
-        WebDriverWait wait = new WebDriverWait (driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/alice-salazar-store/']")));
-        return driver.findElement(loja1).getText();
-    }
+    //public String getTitleLoja1(){
+        //WebDriverWait wait = new WebDriverWait (driver, 10);
+        //wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/adcos/']")));
+        //return driver.findElement(loja1).getText();
+    //}
 
     public String getTitleLoja2(){
         WebDriverWait wait = new WebDriverWait (driver, 10);
         Actions action = new Actions(driver);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/for-make-up/'] span")));
-        WebElement webElement = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/for-make-up/'] span"));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/mahogany/'] span")));
+        WebElement webElement = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/mahogany/'] span"));
         action.moveToElement(webElement).build().perform();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return driver.findElement(loja2).getText();

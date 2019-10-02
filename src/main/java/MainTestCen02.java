@@ -15,7 +15,7 @@ public class MainTestCen02{
         System.out.println("hello world");
         int i=0;
         //Propriedades do chrome
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\marilia.santos\\IdeaProjects\\TS\\libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\aneyz\\projects\\TS\\libs\\chromedriver.exe");
 
         //Iniciar o driver para interagir com o chrome
         WebDriver driver = new ChromeDriver();
@@ -37,7 +37,7 @@ public class MainTestCen02{
 
         //digitar "maquiagem" em pesquisar categoria
         WebElement w3 = driver.findElement(By.cssSelector(".select2-search__field"));
-        w3.sendKeys("Maquiagem");
+        w3.sendKeys("Beleza");
         w3.sendKeys(Keys.ENTER);
 
         //clicar em buscar
@@ -45,21 +45,21 @@ public class MainTestCen02{
         w4.click();
 
         //validar retorno de três lojas
+        //WebDriverWait wait = new WebDriverWait (driver, 10);
+        //wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/adcos/']")));
+        //WebElement w5 = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/adcos/']"));
+        //System.out.println(w5.getText());
+        //i=1;
+
+
         WebDriverWait wait = new WebDriverWait (driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/alice-salazar-store/']")));
-        WebElement w5 = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/alice-salazar-store/']"));
-        System.out.println(w5.getText());
-        i=1;
-
-
-
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/for-make-up/'] span")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/mahogany/'] span")));
         Actions action = new Actions(driver);
-        WebElement w6 = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/for-make-up/'] span"));
+        WebElement w6 = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/mahogany/'] span"));
         action.moveToElement(w6).build().perform();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         System.out.println(w6.getText());
-        i = i + 1;
+        i = 1;
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/sephora/'] span")));
         WebElement w7 = driver.findElement(By.cssSelector("a[href='https://vivariomarrecife.com.br/lojas/sephora/'] span"));

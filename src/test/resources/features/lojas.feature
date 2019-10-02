@@ -15,5 +15,5 @@ Feature: LojasFeature
   Scenario: Cenario02 - Lojas - Search for specific text
     Given a web browser is opened - lojas
     When the user clicks on Lojas
-    And the user enters the field pesquisa categoria with "Maquiagem" and clicks on Buscar
-    Then links related to 'Maquiagem' are shown with these values "ALICE SALAZAR STORE" "FOR MAKE UP" "SEPHORA"
+    And the user enters the field pesquisa categoria with "Beleza" and clicks on Buscar
+    Then links related to 'Maquiagem' are shown with these values "ADCOS" "MAHOGANY" "SEPHORA"

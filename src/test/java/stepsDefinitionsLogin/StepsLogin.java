@@ -25,7 +25,7 @@ public class StepsLogin {
 
     @Before
     public void beforeScenario(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\marilia.santos\\IdeaProjects\\TS\\libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\aneyz\\projects\\TS\\libs\\chromedriver.exe");
         this.driver = new ChromeDriver();
         driver.manage().window().maximize();
         homePageLogin = new HomeLoginPage(driver);

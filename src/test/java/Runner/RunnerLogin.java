@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features={"C:\\Users\\marilia.santos\\IdeaProjects\\TS\\src\\test\\resources\\features\\login.feature"},
+        features={"C:\\Users\\aneyz\\projects\\TS\\src\\test\\resources\\features\\login.feature"},
         glue={"stepsDefinitionsLogin"},
         tags = {"@automatizado"})
 public class RunnerLogin {

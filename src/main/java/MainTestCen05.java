@@ -15,7 +15,7 @@ public class MainTestCen05{
         System.out.println("hello world");
         int i=0;
         //Propriedades do chrome
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\marilia.santos\\IdeaProjects\\TS\\libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\aneyz\\projects\\TS\\libs\\chromedriver.exe");
 
         //Iniciar o driver para interagir com o chrome
         WebDriver driver = new ChromeDriver();
